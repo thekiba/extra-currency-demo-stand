@@ -146,7 +146,7 @@ export function EmulationDisplaySendTest(props: BaseTestCaseProps) {
    */
   useEffect(() => {
     updateStepDetails(STEP_ID.CHECK_EMULATION, renderEmulationCheckContent());
-  }, [props.testCase.status, updateStepDetails]);
+  }, [props.testCase.status]);
 
   return (
     <BaseTestCase {...props}>

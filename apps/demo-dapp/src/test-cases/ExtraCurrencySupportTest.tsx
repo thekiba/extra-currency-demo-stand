@@ -119,7 +119,9 @@ export function ExtraCurrencySupportTest(props: BaseTestCaseProps) {
   useEffect(() => {
     if (props.testCase.status === 'running' || props.testCase.status === 'pending') {
       const result = checkExtraCurrencySupport();
-      props.onStatusChange?.(result);
+      if (result !== props.testCase.status) {
+        props.onStatusChange?.(result);
+      }
     }
 
     if (props.testCase.status === 'failure') {
