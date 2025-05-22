@@ -214,7 +214,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
             name: "Kolo",
             imageUrl: "https://raw.githubusercontent.com/onidev1/tc-assets/refs/heads/main/kolo_logo_288.png",
             aboutUrl: "https://kolo.xyz",
-            universalLink: "https://t.me/kolo/app?attach=wallet",
+            universalLink: "https://t.me/kolo?attach=wallet",
             bridgeUrl: "https://web3-bridge.kolo.in/bridge",
             platforms: ["ios", "android", "macos", "windows", "linux"],
             features: [
