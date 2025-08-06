@@ -104,8 +104,8 @@ importers:
         specifier: ^15.2.1
         version: 15.2.1(@ton/core@0.60.0(@ton/crypto@3.3.0))(@ton/crypto@3.3.0)
       '@tonconnect/ui-react':
-        specifier: 2.2.0-beta.0
-        version: 2.2.0-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: 2.3.0-beta.1
+        version: 2.3.0-beta.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       buffer:
         specifier: ^6.0.3
         version: 6.0.3
@@ -137,8 +137,8 @@ importers:
         specifier: ^18.2.0
         version: 18.3.1
       react-day-picker:
-        specifier: 8.10.1
-        version: 8.10.1(date-fns@4.1.0)(react@18.3.1)
+        specifier: 9.8.1
+        version: 9.8.1(react@18.3.1)
       react-dom:
         specifier: ^18.3.1
         version: 18.3.1(react@18.3.1)
@@ -302,6 +302,9 @@ packages:
   '@babel/types@7.26.9':
     resolution: {integrity: sha512-Y3IR1cRnOxOCDvMmNiym7XpXQ93iGDDPHx+Zj+NM+rg0fBaShfQLkg+hKPaZCEvg5N/LeCo4+Rj/i3FuJsIQaw==}
     engines: {node: '>=6.9.0'}
+
+  '@date-fns/tz@1.3.1':
+    resolution: {integrity: sha512-LnBOyuj+piItX/D5BWBSckBsuZyOt7Jg2obGNiObq7qjl1A2/8F+i4RS8/MmkSdnw6hOe6afrJLCWrUWZw5Mlw==}
 
   '@esbuild/aix-ppc64@0.21.5':
     resolution: {integrity: sha512-1SDgH6ZSPTlggy1yI6+Dbkiz8xzpHJEVAlF/AM1tHPLsf5STom9rwtjE4hKAF20FfXXNTFqEYXyJNWh1GiZedQ==}
@@ -1422,20 +1425,20 @@ packages:
   '@tonconnect/isomorphic-fetch@0.0.3':
     resolution: {integrity: sha512-jIg5nTrDwnite4fXao3dD83eCpTvInTjZon/rZZrIftIegh4XxyVb5G2mpMqXrVGk1e8SVXm3Kj5OtfMplQs0w==}
 
-  '@tonconnect/protocol@2.3.0-beta.0':
-    resolution: {integrity: sha512-YrEDSSvWaXEtEBxa1czFm5W0xRYaZfypzBzqqXQ6JZAfe+QZQWzcy+M2FYoeZWCSdCcfp+rpLIFkJ/4GFfQpqg==}
+  '@tonconnect/protocol@2.3.0':
+    resolution: {integrity: sha512-OxrmcXF/EsSdGeASP9VpTRojuMtTV87DKYFLRq4ZJvF/Hirfm2cgcxzzj2uksEGm5IIR010UWo6b38RuokNwFQ==}
 
-  '@tonconnect/sdk@3.2.0-beta.0':
-    resolution: {integrity: sha512-TtxJRqSUmnR/dFPlRN8Xbj9KNgVvGzJltB1inswMFvdz8yCjr/HqcjI3eCaeA+XA07aYm9GoZ/YU4iDgCsLChg==}
+  '@tonconnect/sdk@3.3.0-beta.1':
+    resolution: {integrity: sha512-SAaRCxk8hyQoanwdSFtspvALPw42sZFj6Kv33WkUX2ANNrtks43JHeedLxGRScRwkc7GMWWIOwHfMf4NKXrzfg==}
 
-  '@tonconnect/ui-react@2.2.0-beta.0':
-    resolution: {integrity: sha512-xo9dTnbVuxGPk2cygHCfSbFiQU2KsdvY7V1G7bRIpXr2LLrtewDvITwQoL+0u2dxp6tiDqiW8qn2HDAxUBROLw==}
+  '@tonconnect/ui-react@2.3.0-beta.1':
+    resolution: {integrity: sha512-O89pYa6qNI5HPDhXht0AA5J6yBwl0wgzI5/q2qXn3n/qedAUGDefMRXfRdZuiuuT8fQsDd8rdCa0kqxQKFWfnQ==}
     peerDependencies:
       react: '>=17.0.0'
       react-dom: '>=17.0.0'
 
-  '@tonconnect/ui@2.2.0-beta.0':
-    resolution: {integrity: sha512-3j22wphBWflrhASEyPV7rCAL4An5wY1te3fRHX6SHPsDwtXeRKJvfYmk3cnxrinbwK8qxIqujQRbx1M9w+z0fw==}
+  '@tonconnect/ui@2.3.0-beta.1':
+    resolution: {integrity: sha512-++IoyN8mRltaWA8jtJ3frgdHhxBVSkxMuXzLbQSYR+gTwV9vHSaZz+bCVltm5usNfHMl2hK6XJChk5V4fWtLgA==}
 
   '@types/babel__core@7.20.5':
     resolution: {integrity: sha512-qoQprZvz5wQFJwMDqeseRXWv3rqMvhgpbXFfVyWhbx9X47POIA6i/+dXefEmZKoAgOaTdaIgNSMqMIU61yRyzA==}
@@ -1775,6 +1778,9 @@ packages:
 
   dataloader@2.2.3:
     resolution: {integrity: sha512-y2krtASINtPFS1rSDjacrFgn1dcUuoREVabwlOGOe4SdxenREqwjwjElAdwvbGM7kgZz9a3KVicWR7vcz8rnzA==}
+
+  date-fns-jalali@4.1.0-0:
+    resolution: {integrity: sha512-hTIP/z+t+qKwBDcmmsnmjWTduxCg+5KfdqWQvb2X/8C9+knYY6epN/pfxdDuyVlSVeFz0sM5eEfwIUQ70U4ckg==}
 
   date-fns@4.1.0:
     resolution: {integrity: sha512-Ukq0owbQXxa/U3EGtsdVBkR1w7KOQ5gIBqdH2hkvknzZPYvBxb/aa6E8L7tmjFtkwZBu3UXBbjIgPo/Ez4xaNg==}
@@ -2408,11 +2414,11 @@ packages:
   queue-microtask@1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
 
-  react-day-picker@8.10.1:
-    resolution: {integrity: sha512-TMx7fNbhLk15eqcMt+7Z7S2KF7mfTId/XJDjKE8f+IUcFn0l08/kI4FiYTL/0yuOLmEcbR4Fwe3GJf/NiiMnPA==}
+  react-day-picker@9.8.1:
+    resolution: {integrity: sha512-kMcLrp3PfN/asVJayVv82IjF3iLOOxuH5TNFWezX6lS/T8iVRFPTETpHl3TUSTH99IDMZLubdNPJr++rQctkEw==}
+    engines: {node: '>=18'}
     peerDependencies:
-      date-fns: ^2.28.0 || ^3.0.0
-      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+      react: '>=16.8.0'
 
   react-dom@18.3.1:
     resolution: {integrity: sha512-5m4nQKp+rZRb09LNH59GM4BxTh9251/ylbKIbpe7TpGxfJ+9kv6BLkLBXIjjspbgbnIBNqlI23tRnTWT0snUIw==}
@@ -2926,6 +2932,8 @@ snapshots:
     dependencies:
       '@babel/helper-string-parser': 7.25.9
       '@babel/helper-validator-identifier': 7.25.9
+
+  '@date-fns/tz@1.3.1': {}
 
   '@esbuild/aix-ppc64@0.21.5':
     optional: true
@@ -4000,30 +4008,30 @@ snapshots:
     transitivePeerDependencies:
       - encoding
 
-  '@tonconnect/protocol@2.3.0-beta.0':
+  '@tonconnect/protocol@2.3.0':
     dependencies:
       tweetnacl: 1.0.3
       tweetnacl-util: 0.15.1
 
-  '@tonconnect/sdk@3.2.0-beta.0':
+  '@tonconnect/sdk@3.3.0-beta.1':
     dependencies:
       '@tonconnect/isomorphic-eventsource': 0.0.2
       '@tonconnect/isomorphic-fetch': 0.0.3
-      '@tonconnect/protocol': 2.3.0-beta.0
+      '@tonconnect/protocol': 2.3.0
     transitivePeerDependencies:
       - encoding
 
-  '@tonconnect/ui-react@2.2.0-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@tonconnect/ui-react@2.3.0-beta.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@tonconnect/ui': 2.2.0-beta.0
+      '@tonconnect/ui': 2.3.0-beta.1
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
     transitivePeerDependencies:
       - encoding
 
-  '@tonconnect/ui@2.2.0-beta.0':
+  '@tonconnect/ui@2.3.0-beta.1':
     dependencies:
-      '@tonconnect/sdk': 3.2.0-beta.0
+      '@tonconnect/sdk': 3.3.0-beta.1
       classnames: 2.5.1
       csstype: 3.1.3
       deepmerge: 4.3.1
@@ -4398,6 +4406,8 @@ snapshots:
   d3-timer@3.0.1: {}
 
   dataloader@2.2.3: {}
+
+  date-fns-jalali@4.1.0-0: {}
 
   date-fns@4.1.0: {}
 
@@ -4995,9 +5005,11 @@ snapshots:
 
   queue-microtask@1.2.3: {}
 
-  react-day-picker@8.10.1(date-fns@4.1.0)(react@18.3.1):
+  react-day-picker@9.8.1(react@18.3.1):
     dependencies:
+      '@date-fns/tz': 1.3.1
       date-fns: 4.1.0
+      date-fns-jalali: 4.1.0-0
       react: 18.3.1
 
   react-dom@18.3.1(react@18.3.1):
