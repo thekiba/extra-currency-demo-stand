@@ -41,7 +41,7 @@
     "@radix-ui/react-tooltip": "^1.1.8",
     "@ton/core": "^0.60.0",
     "@ton/ton": "^15.2.1",
-    "@tonconnect/ui-react": "2.3.0-beta.1",
+    "@tonconnect/ui-react": "^2.4.0-beta.1",
     "buffer": "^6.0.3",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
